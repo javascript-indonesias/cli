@@ -1,3 +1,69 @@
+## v6.10.1 (2019-07-11):
+
+### BUGFIXES
+
+* [`3cbd57712`](https://github.com/npm/cli/commit/3cbd577120a9da6e51bb8b13534d1bf71ea5712c)
+  fix(git): strip GIT environs when running git
+  ([@isaacs](https://github.com/isaacs))
+* [`a81a8c4c4`](https://github.com/npm/cli/commit/a81a8c4c466f510215a51cef1bb08544d11844fe)
+  [#206](https://github.com/npm/cli/pull/206) improve isOnly(Dev,Optional)
+  ([@larsgw](https://github.com/larsgw))
+* [`172f9aca6`](https://github.com/npm/cli/commit/172f9aca67a66ee303c17f90a994cd52fc66552a)
+  [#179](https://github.com/npm/cli/pull/179) fix-xmas-underline
+  ([@raywu0123](https://github.com/raywu0123))
+* [`f52673fc7`](https://github.com/npm/cli/commit/f52673fc7284e58af8c04533e82b76bf7add72cf)
+  [#212](https://github.com/npm/cli/pull/212) build: use `/usr/bin/env` to
+  load bash ([@rsmarples](https://github.com/rsmarples))
+
+### DEPENDENCIES
+
+* [`ef4445ad3`](https://github.com/npm/cli/commit/ef4445ad34a53b5639499c8e3c9752f62ee6f37c)
+  [#208](https://github.com/npm/cli/pull/208) `node-gyp@5.0.2`
+  ([@irega](https://github.com/irega))
+* [`c0d611356`](https://github.com/npm/cli/commit/c0d611356f7b23077e97574b01c8886e544db425)
+  `npm-lifecycle@3.0.0` ([@isaacs](https://github.com/isaacs))
+* [`7716ba972`](https://github.com/npm/cli/commit/7716ba9720270d5b780755a5bb1ce79702067f1f)
+  `libcipm@4.0.0` ([@isaacs](https://github.com/isaacs))
+* [`42d22e837`](https://github.com/npm/cli/commit/42d22e8374c7d303d94e405d7385d94dd2558814)
+  `libnpm@3.0.0` ([@isaacs](https://github.com/isaacs))
+* [`a2ea7f9ff`](https://github.com/npm/cli/commit/a2ea7f9ff64ae743d05fdbf7d46fb9afafa8aa6f)
+  `semver@5.7.0` ([@isaacs](https://github.com/isaacs))
+* [`429226a5e`](https://github.com/npm/cli/commit/429226a5e992cd907d4f19bd738037007cf78c1f)
+  `lru-cache@5.1.1` ([@isaacs](https://github.com/isaacs))
+* [`175670ea6`](https://github.com/npm/cli/commit/175670ea65cca03f8b2e957df3dd4b8b0efd0e1f)
+  `npm-registry-fetch@3.9.1`: ([@isaacs](https://github.com/isaacs))
+* [`0d0517f7f`](https://github.com/npm/cli/commit/0d0517f7f8c902b5064ac18fb4015b31750ad2b2)
+  `call-limit@1.1.1` ([@isaacs](https://github.com/isaacs))
+* [`741400429`](https://github.com/npm/cli/commit/74140042917ea241062a812ceb65c5423c2bafa9)
+  `glob@7.1.4` ([@isaacs](https://github.com/isaacs))
+* [`bddd60e30`](https://github.com/npm/cli/commit/bddd60e302283a4a70d35f8f742e42bd13f4dabf)
+  `inherits@2.0.4` ([@isaacs](https://github.com/isaacs))
+* [`4acf03fd1`](https://github.com/npm/cli/commit/4acf03fd140ed3ddb2dcf3fdc9756bc3f5a8bcbb)
+  `libnpmsearch@2.0.1` ([@isaacs](https://github.com/isaacs))
+* [`c2bd17291`](https://github.com/npm/cli/commit/c2bd17291a86bea7ced2fbd07d66d013bd7a7560)
+  `marked@0.6.3` ([@isaacs](https://github.com/isaacs))
+* [`7f0221bb1`](https://github.com/npm/cli/commit/7f0221bb1bb41ffc933c785940e227feae38c80c)
+  `marked-man@0.6.0` ([@isaacs](https://github.com/isaacs))
+* [`f458fe7dd`](https://github.com/npm/cli/commit/f458fe7dd3bebddf603aaae183a424ea8aaa018f)
+  `npm-lifecycle@2.1.1` ([@isaacs](https://github.com/isaacs))
+* [`009752978`](https://github.com/npm/cli/commit/0097529780269c28444f1efa0d7c131d47a933eb)
+  `node-gyp@4.0.0` ([@isaacs](https://github.com/isaacs))
+* [`0fa2bb438`](https://github.com/npm/cli/commit/0fa2bb4386379d6e9d8c95db08662ec0529964f9)
+  `query-string@6.8.1` ([@isaacs](https://github.com/isaacs))
+* [`b86450929`](https://github.com/npm/cli/commit/b86450929796950a1fe4b1f9b02b1634c812f3bb)
+  `tar-stream@2.1.0` ([@isaacs](https://github.com/isaacs))
+* [`25db00fe9`](https://github.com/npm/cli/commit/25db00fe953453198adb9e1bd71d1bc2a9f04aaa)
+  `worker-farm@1.7.0` ([@isaacs](https://github.com/isaacs))
+* [`8dfbe8610`](https://github.com/npm/cli/commit/8dfbe861085dfa8fa56bb504b4a00fba04c34f9d)
+  `readable-stream@3.4.0` ([@isaacs](https://github.com/isaacs))
+* [`f6164d5dd`](https://github.com/npm/cli/commit/f6164d5ddd072eabdf2237f1694a31efd746eb1d)
+  [isaacs/chownr#21](https://github.com/isaacs/chownr/pull/21)
+  [isaacs/chownr#20](https://github.com/isaacs/chownr/issues/20)
+  [npm.community#7901](https://npm.community/t/7901/)
+  [npm.community#8203](https://npm.community/t/8203) `chownr@1.1.2` This
+  fixes an EISDIR error from cacache on Darwin in Node versions prior to
+  10.6. ([@isaacs](https://github.com/isaacs))
+
 ## v6.10.0 (2019-07-03):
 
 ### FEATURES
