@@ -1,5 +1,5 @@
 {
-  "version": "7.11.0",
+  "version": "7.11.1",
   "name": "npm",
   "description": "a package manager for JavaScript",
   "keywords": [
@@ -44,7 +44,7 @@
   "dependencies": {
     "@npmcli/arborist": "^2.4.0",
     "@npmcli/ci-detect": "^1.2.0",
-    "@npmcli/config": "^2.1.0",
+    "@npmcli/config": "^2.2.0",
     "@npmcli/run-script": "^1.8.5",
     "abbrev": "~1.1.1",
     "ansicolors": "~0.3.2",
@@ -88,11 +88,11 @@
     "npm-package-arg": "^8.1.2",
     "npm-pick-manifest": "^6.1.1",
     "npm-profile": "^5.0.3",
-    "npm-registry-fetch": "^10.1.0",
+    "npm-registry-fetch": "^10.1.1",
     "npm-user-validate": "^1.0.1",
     "npmlog": "~4.1.2",
     "opener": "^1.5.2",
-    "pacote": "^11.3.2",
+    "pacote": "^11.3.3",
     "parse-conflict-json": "^1.1.1",
     "qrcode-terminal": "^0.12.0",
     "read": "~1.0.7",
