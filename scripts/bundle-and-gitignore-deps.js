@@ -9,7 +9,7 @@ const arb = new Arborist({ path: resolve(__dirname, '..') })
 const shouldIgnore = []
 
 arb.loadVirtual().then(tree => {
-  for (const [name, node] of tree.children.entries()) {
+  for (const node of tree.children.values()) {
     if (node.dev || node.isLink) {
       console.error('ignore', node.name)
       shouldIgnore.push(node.name)
@@ -26,6 +26,27 @@ arb.loadVirtual().then(tree => {
   const ignoreData = `# Automatically generated to ignore dev deps
 /.package-lock.json
 package-lock.json
+CHANGELOG*
+README*
+.editorconfig
+.idea/
+.npmignore
+.eslintrc*
+.travis*
+.github
+.jscsrc
+.nycrc
+.istanbul*
+.eslintignore
+.jshintrc*
+.prettierrc*
+.jscs.json
+.dir-locals*
+.coveralls*
+.babelrc*
+.nyc_output
+.gitkeep
+
 ${ignores}
 `
   writeFileSync(ignore, ignoreData)
